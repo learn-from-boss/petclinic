@@ -1,3 +1,3 @@
 FROM openjdk:17-jdk-slim
-COPY target/spring-petclinic-*.jar app.jar
+COPY ~/find_jar_here/*.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
