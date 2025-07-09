@@ -11,19 +11,19 @@
 
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>3.5.0</version>
+  <version>Dev-3.5.0</version>
 
   <name>petclinic</name>
   <distributionManagement>
   <repository>
     <id>central</id>
     <name>JFrog Release Repo</name>
-    <url>http://3.83.182.67:8082/artifactory/libs-release-local</url>
+    <url>http://18.206.160.172:8082/artifactory/libs-release-local</url>
   </repository>
   <snapshotRepository>
     <id>snapshot</id>
     <name>JFrog Snapshot Repo</name>
-    <url>http://3.83.182.67:8082/artifactory/libs-snapshot-local</url>
+    <url>http://18.206.160.172:8082/artifactory/libs-snapshot-local</url>
   </snapshotRepository>
 </distributionManagement>
 
